@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
     <nav
-      className="bg-pink-400 py-4 w-1/6 h-screen"
+      className="bg-emerald-600 py-4 w-1/6 pt-20 h-screen fixed z-50 opacity-0 scale-95 hover:opacity-100 hover:scale-100 duration-500 ease-in-out transition-opacity"
       style={{ position: "fixed", zIndex: 1000 }}
     >
       {" "}
