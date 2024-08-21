@@ -10,32 +10,36 @@ export const Navbar = () => {
       {" "}
       <div className="m-0 p-0 flex justify-between items-center w-full">
         <ul className="flex flex-col text-lg w-full">
-          <li className="hover:bg-emerald-700 px-4 py-4">
-            <NavLink className="text-white text-2xl " to="/">
-              Home
-            </NavLink>
-          </li>
-          <li className="hover:bg-emerald-700 px-4 py-4">
-            <NavLink className="text-white text-2xl " to="/about">
-              About
-            </NavLink>
-          </li>
-          <li className="hover:bg-emerald-700 px-4 py-4">
-            <NavLink className="text-white text-2xl " to="/portfolio">
-              Portfolio
-            </NavLink>
-          </li>
-          <li className="hover:bg-emerald-700 px-4 py-4">
-            <NavLink className="text-white text-2xl " to="/cv">
-              CV
-            </NavLink>
-          </li>
-
-          <li className="hover:bg-emerald-700 px-4 py-4">
-            <NavLink className="text-white text-2xl " to="/contact">
-              Contact
-            </NavLink>
-          </li>
+          <NavLink
+            className="text-white text-2xl hover:bg-emerald-700 px-4 py-4 "
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className="text-white text-2xl hover:bg-emerald-700 px-4 py-4"
+            to="/about"
+          >
+            About
+          </NavLink>
+          <NavLink
+            className="text-white text-2xl hover:bg-emerald-700 px-4 py-4"
+            to="/portfolio"
+          >
+            Portfolio
+          </NavLink>
+          <NavLink
+            className="text-white text-2xl hover:bg-emerald-700 px-4 py-4"
+            to="/cv"
+          >
+            CV
+          </NavLink>
+          <NavLink
+            className="text-white text-2xl hover:bg-emerald-700 px-4 py-4"
+            to="/contact"
+          >
+            Contact
+          </NavLink>
         </ul>
       </div>
     </nav>
