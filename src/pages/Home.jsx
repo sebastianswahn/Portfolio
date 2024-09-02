@@ -1,11 +1,19 @@
 import React from "react";
 import portfolioimage from "../portfolioimage/IMG_5295.jpeg";
+import kurbitssvg from "../kurbitssvg/kurbits4.svg";
 
 function Home() {
   return (
     <div className="w-screen h-screen flex flex-col">
+      <h1
+        className="text-4xl absolute font-serif italic font-extrabold mb-12"
+        style={{ top: "20%", left: "25%", transform: "translate(-50%, -50%)" }}
+      >
+        Welcome to My Portfolio{" "}
+      </h1>
+
       <div
-        className="absolute z-auto w-72 h-72 rounded-full bg-purple-100 align-middle text-center"
+        className="absolute z-auto w-72 h-72 rounded-full align-middle text-center"
         style={{ top: "20%", left: "75%", transform: "translate(-50%, -50%)" }}
       >
         {" "}
@@ -14,20 +22,27 @@ function Home() {
           src={portfolioimage}
         ></img>
       </div>
+      <div
+        className="absolute z-auto align-middle text-center"
+        style={{ top: "0%", left: "40%", transform: "translate(-50%, -50%)" }}
+      >
+        {" "}
+        <img
+          className="object-cover w-full h-full rounded-full"
+          src={kurbitssvg}
+        ></img>
+      </div>
       <div className="w-screen h-60 bg-white"></div>
-      <div className="h-5/6 bg-slate-300">
+      <div className="h-5/6 bg-green-200">
         <div
-          className="w-10/12 fixed"
+          className="max-w-500px pt-28 fixed"
           style={{
-            top: "50%",
-            left: "50%",
+            top: "55%",
+            left: "40%",
             transform: "translate(-50%, -50%)",
           }}
         >
-          <h1 className="text-3xl font-extrabold mb-12">
-            Welcome to My Portfolio{" "}
-          </h1>
-          <p className="text-xl font-normal">
+          <p className="text-2xl font-serif font-medium">
             Hi, I'm Sebastian, a passionate programming student with a deep love
             for coding and problem-solving. As I navigate through the exciting
             world of software development, I'm constantly honing my skills in
