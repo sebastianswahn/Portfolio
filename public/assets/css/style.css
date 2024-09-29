@@ -3,7 +3,7 @@
 
 body {
   font-family: "Open Sans", sans-serif !important;
-  background-color: #2e3135 !important;
+  background-color: #263c39cf !important;
   color: #dadada !important;
 }
 
@@ -61,7 +61,7 @@ h6 a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 75px;
   font-weight: 800;
   line-height: 60px;
 }
@@ -1094,7 +1094,7 @@ p {
   }
 
   .name h1 {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 50px;
   }
 
