@@ -18,6 +18,8 @@
     "react-countup": "^6.5.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
+    "react-mailto": "^0.4.0",
+    "react-protected-mailto": "^1.0.3",
     "react-responsive-masonry": "^2.1.7",
     "react-router-dom": "^5.3.4",
     "react-scroll": "^1.9.0",

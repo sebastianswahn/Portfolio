@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#responsive-navbar-nav {
+  width: fit-content;
+}
+.navbar-nav {
+  width: 100% !important;
+  justify-content: end;
+}
+
+.intro-button a,
+.blog-title a,
+.slider-cta a,
+.social-links a,
+.blog-button a,
+.contact-item a,
+a {
+  text-decoration: none;
+}
+.blog-item-small {
+  display: flex;
+}
+
+.blog-item-small img {
+  width: 100%;
+}
+.blog-small-img {
+  width: fit-content;
+}
+.blog-small-description {
+  flex: 1;
+}
+.contact-item {
+  display: flex;
+}
+.navbar-nav a {
+  font-weight: bold;
+}
