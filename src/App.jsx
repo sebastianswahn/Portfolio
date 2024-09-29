@@ -1,47 +1,26 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-
-import RootLayout from "./layouts/rootlayout";
-
 import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import RouteNotFound from "./Pages/RouteNotFound";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import CV from "./pages/CV";
-import Contact from "./pages/Contact";
-
-import "tailwindcss/tailwind.css";
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <RootLayout />,
-      children: [
-        {
-          index: true,
-          element: <Home />,
-        },
-        {
-          path: "about",
-          element: <About />,
-        },
-        {
-          path: "portfolio",
-          element: <Portfolio />,
-        },
-        {
-          path: "CV",
-          element: <CV />,
-        },
-        {
-          path: "contact",
-          element: <Contact />,
-        },
-      ],
-    },
-  ]);
-
-  return <RouterProvider router={router} />;
+  return (
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="*">
+            <RouteNotFound />
+          </Route>
+        </Switch>
+      </div>
+      ;
+    </Router>
+  );
 }
 
 export default App;

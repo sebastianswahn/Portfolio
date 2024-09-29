@@ -1,35 +1,9 @@
-/*
-  Project Name: Palun - Dark Personal Portfolio HTML5 Template
-  Author: tortoiz
-  Support: tortoizthemes@gmail.com
-  Description: Personal Portfolio Bootstrap 4 and HTML5 Template
-  Version: 1.0
-*/
-
-/* CSS Index 
------------------------------------
-1. Theme default css
-2. Header Area
-3. Slider Area
-4. Services Area
-5. Counter Area
-6. Portfolio Area
-7. Blog Area
-8. Contact Area
-9. Copyright Area
-10. Blog Area
-11. News Details Area
-12. Responsive
-
-*/
-
-/* --------------- 1. Theme default css ---------------------*/
-
+/* Calling alternative 1 portfolio and 2 for blog to separate */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
 body {
   font-family: "Open Sans", sans-serif !important;
-  background-color: #2e2e35 !important;
+  background-color: #2e3135 !important;
   color: #dadada !important;
 }
 
@@ -293,8 +267,6 @@ p {
   outline: none;
 }
 
-/* -----------------  2. Header Area -------------- */
-
 .menu-area ul li {
   margin-right: 38px !important;
 }
@@ -396,8 +368,6 @@ p {
 .menu-area .dropdown-toggle::after {
   border-top: 0;
 }
-
-/* -----------------  3. Slider Area -------------- */
 
 .slider-height {
   height: 738px;
@@ -528,12 +498,10 @@ p {
   align-items: center;
   justify-content: center;
 }
-/* --------- 5. Counter Area -------------- */
 .counter-item h4 {
   font-size: 35px;
 }
 
-/* --------- 6. Portfolio Area ----------- */
 .pofo-cat {
   position: relative;
 }
@@ -627,8 +595,6 @@ p {
   display: block;
   clear: both;
 }
-
-/* ------- 7. Blog Area -------- */
 
 .single-blog {
   position: relative;
@@ -766,7 +732,6 @@ p {
   height: 250px;
   object-fit: cover;
 }
-/* ----------- 8. Contact Area --------- */
 
 .contact-item {
   background: #36363e;
@@ -791,7 +756,7 @@ p {
   text-decoration: none;
   color: #e4aa48;
 }
-/* ------------ 9. Copyright Area ---------- */
+
 .footer-area {
   position: relative;
 }
@@ -822,9 +787,6 @@ p {
   text-decoration: underline;
 }
 
-/* ================= Blog List Page ================== */
-
-/* ------------ 10. Blog Area --------- */
 .page-title h1 {
   font-size: 35px;
   line-height: 40px;
@@ -963,10 +925,6 @@ p {
   font-size: 18px;
 }
 
-/* =============== News Details Page ============== */
-
-/* -------------- 11. News Details Area ----------- */
-
 .news-details img {
   width: 100%;
   height: auto;
@@ -1031,8 +989,6 @@ p {
   margin-bottom: 0px;
   display: block;
 }
-
-/* -------------- 12. Responsive  --------- */
 
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -1105,8 +1061,6 @@ p {
     margin-left: 20px;
     margin-right: 10px;
   }
-
-  /* blog list */
 
   .list-blog-detail p:not(:first-of-type) {
     display: none;
@@ -1404,7 +1358,6 @@ p {
     font-size: 16px;
   }
 
-  /* blog list */
   .blog-section .title .dash {
     width: 60%;
     left: 40%;
@@ -1491,7 +1444,6 @@ p {
     padding: 20px 30px;
   }
 
-  /* blog list */
   .blog-post-area {
     padding: 40px 0;
   }
