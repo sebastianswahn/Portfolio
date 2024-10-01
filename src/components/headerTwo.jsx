@@ -3,6 +3,8 @@ import { Navbar, NavDropdown, Nav } from "react-bootstrap";
 import { FaLongArrowAltDown } from "react-icons/fa";
 import { FaBars, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { Link as ReactLink } from "react-router-dom";
+import logoImg from "../assets/images/logo/logo.png";
+
 export default function HeaderTwo() {
   const navDropdownTitle = (
     <>
@@ -18,7 +20,9 @@ export default function HeaderTwo() {
             <div className="menu-area">
               <Navbar collapseOnSelect expand="lg" className="p-0">
                 <div className="logo-area">
-                  <ReactLink to="/">// insert a logo here </ReactLink>
+                  <ReactLink to="/">
+                    <img className="img-fluid" src={logoImg} alt="Logo" />
+                  </ReactLink>
                 </div>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav">
                   <i className="text-white">
