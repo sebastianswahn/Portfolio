@@ -62,7 +62,7 @@ export default function Carousel() {
                         </a>
                         <br />
                       </div>
-                      <div className="slider-cta">
+                      <div className="slider-cta pb-4">
                         <Link
                           to="contact"
                           className="ct-btn"
@@ -74,6 +74,16 @@ export default function Carousel() {
                         >
                           Contact me
                         </Link>
+                      </div>
+                      <div className="slider-cta">
+                        <a
+                          href="../public/assets/resume.pdf"
+                          className="ct-btn"
+                          activeClass="active"
+                          download
+                        >
+                          Download CV
+                        </a>
                       </div>
                     </div>
                   </div>

@@ -6,6 +6,7 @@ import servicIcon_04 from "../assets/images/icons/marketing-white.svg";
 import servicIcon_05 from "../assets/images/icons/code-white.png";
 import servicIcon_06 from "../assets/images/icons/marketing.svg";
 import servicIcon_07 from "../assets/images/icons/search.svg";
+import servicIcon_08 from "../assets/images/icons/pen.svg";
 import SingleCountdown from "../SingleFeatures/SIngleCountdown";
 import SectionTitle from "./section_title";
 
@@ -123,8 +124,8 @@ export default function Services() {
           <div className="col-md-3 col-sm-6 mb-4 mb-md-0 pt-4">
             <div className="project-card text-center bgp">
               <div className="icon mb-20">
-                <img src={servicIcon_06} alt="design" />
-                <img className="d-none" src={servicIcon_04} alt="design" />
+                <img src={servicIcon_08} alt="design" />
+                <img className="d-none" src={servicIcon_08} alt="design" />
               </div>
               <div className="skill-project">
                 <h4 className="mb-3">TailwindCSS</h4>
