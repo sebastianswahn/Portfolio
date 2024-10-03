@@ -38,20 +38,12 @@ export default function Portfolios() {
       <div className="portfolio-area section-ptb-2" id="portfolio">
         <div className="container">
           <SectionTitle
-            title="PORTFOLIO"
-            subTitle="My Work Collection"
-            desc="This is my work collection, mostly work from my education but also some private projects."
+            title="PROJECTS"
+            subTitle="My Project Collection"
+            desc="This is my project collection"
           />
           <Tab.Container defaultActiveKey="all">
             <Row>
-              <div className="col-xl-8 col-lg-9 col-sm-12 mx-auto">
-                <Nav className="pofo-cat pb-5 text-center justify-content-center">
-                  <Nav.Item>
-                    <Nav.Link eventKey="all">ALL</Nav.Link>
-                  </Nav.Item>
-                  <div className="pofo-line"></div>
-                </Nav>
-              </div>
               <Col sm={12}>
                 <Tab.Content>
                   <Tab.Pane eventKey="all">
