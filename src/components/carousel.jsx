@@ -64,7 +64,7 @@ export default function Carousel() {
                     </div>
                     <div className="slider-cta">
                       <a
-                        href="../public/assets/resume.pdf"
+                        href="../public/resume.pdf"
                         className="ct-btn"
                         activeClass="active"
                         download
