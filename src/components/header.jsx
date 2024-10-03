@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaEnvelope,
+  FaArrowRight,
 } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as ReactLink } from "react-router-dom";
@@ -46,22 +47,6 @@ export default function Header() {
                     >
                       Portfolios
                     </ScrollLink>
-                    <NavDropdown
-                      title={navDropdownTitle}
-                      id="basic-nav-dropdown"
-                    >
-                      <ScrollLink
-                        className="dropdown-item"
-                        to="portfolio"
-                        smooth={true}
-                        duration={2000}
-                        activeClass="active"
-                        spy={false}
-                        offset={5}
-                      >
-                        Eller så kanske
-                      </ScrollLink>
-                    </NavDropdown>
                     <ScrollLink
                       className="nav-link"
                       to="contact"
@@ -71,7 +56,7 @@ export default function Header() {
                       spy={false}
                       offset={5}
                     >
-                      Contact
+                      Contact <FaArrowRight />
                     </ScrollLink>
                     <ul className="mb-0 menu-social pl-15">
                       <li className="list-inline-item menu-border">

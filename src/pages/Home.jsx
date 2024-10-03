@@ -3,6 +3,7 @@ import Header from "../Components/header";
 import Footer from "../Components/footer";
 import Carousel from "../Components/carousel";
 import Services from "../Components/services";
+import Portfolios from "../Components/portfolios";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Header />
       <Carousel />
       <Services />
+      <Portfolios />
       <Footer />
     </div>
   );
