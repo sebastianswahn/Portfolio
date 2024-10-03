@@ -67,7 +67,7 @@ export default function Services() {
             <div className="project-card text-center bgp">
               <div className="icon mb-20">
                 <img src={servicIcon_06} alt="design" />
-                <img className="d-none" src={servicIcon_04} alt="design" />
+                <img className="d-none" src={servicIcon_06} alt="design" />
               </div>
               <div className="skill-project">
                 <h4 className="mb-3">Leadership</h4>
