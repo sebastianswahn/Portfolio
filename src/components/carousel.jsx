@@ -64,7 +64,7 @@ export default function Carousel() {
                     </div>
                     <div className="slider-cta">
                       <a
-                        href="../public/assets/resume.pdf"
+                        href="https://purple-glennis-83.tiiny.site"
                         className="ct-btn"
                         activeClass="active"
                         download
