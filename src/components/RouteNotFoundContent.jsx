@@ -1,7 +1,7 @@
 import React from "react";
 import { FaExclamationTriangle } from "react-icons/fa";
 
-export default function FourZeroContent() {
+export default function RouteNotFoundContent() {
   return (
     <div className="error-section pt-120 pb-120">
       <div className="container">
