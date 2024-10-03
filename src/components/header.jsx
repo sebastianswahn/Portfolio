@@ -47,17 +47,6 @@ export default function Header() {
                     >
                       Portfolios
                     </ScrollLink>
-                    <ScrollLink
-                      className="nav-link"
-                      to="contact"
-                      smooth={true}
-                      duration={2000}
-                      activeClass="active"
-                      spy={false}
-                      offset={5}
-                    >
-                      Contact <FaArrowRight />
-                    </ScrollLink>
                     <ul className="mb-0 menu-social pl-15">
                       <li className="list-inline-item menu-border">
                         <a href="https://github.com/sebastianswahn">
@@ -68,7 +57,7 @@ export default function Header() {
                       </li>
 
                       <li className="list-inline-item">
-                        <a href="www.linkedin.com/in/sebastian-swahn-31273a298">
+                        <a href="https://linkedin.com/in/sebastian-swahn-31273a298">
                           <i>
                             <FaLinkedin />
                           </i>
