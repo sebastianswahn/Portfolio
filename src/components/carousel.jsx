@@ -131,25 +131,18 @@ export default function Carousel() {
                   <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5">
                     <div className="slider-left">
                       <div className="name">
-                        <h1>
-                          Jack <br /> Harper<span className="pc">.</span>
+                        <h1 className="h1">
+                          Sebastian <br /> Swahn<span className="pc">.</span>
                         </h1>
                       </div>
                       <div className="dash"></div>
                       <div className="social-links mb-40">
-                        <a href="https://www.instagram.com/tortoiz">
-                          Instagram
-                        </a>{" "}
-                        |{" "}
-                        <a href="https://www.linkedin.com/in/shailendra-bhardwaj-4539611a0/">
-                          LinkedIn
-                        </a>{" "}
+                        <a href="https://github.com/sebastianswahn">GitHub</a>
                         <br />
-                        <a href="https://behance.net/tortoizthemes">
-                          Behance
-                        </a>{" "}
-                        |{" "}
-                        <a href="https://dribbble.com/TortoizTeam">Dribbble</a>
+                        <a href="www.linkedin.com/in/sebastian-swahn-31273a298">
+                          LinkedIn
+                        </a>
+                        <br />
                       </div>
                       <div className="slider-cta">
                         <Link
@@ -170,7 +163,7 @@ export default function Carousel() {
                     <div className="profile-pic">
                       <img
                         className="img-fluid"
-                        src={sliderImg01}
+                        src={sliderImg01} // Change this image path
                         alt="jack harper"
                       />
                     </div>
@@ -180,14 +173,16 @@ export default function Carousel() {
                       <div className="section-title">
                         <h3 className="section-name pc">INTRODUCTION</h3>
                         <h2>
-                          UI/UX Designer,
+                          Front End Developer,
                           <br />
-                          Full Stack Web <br /> Developer
+                          UX/UI Designer <br />
                         </h2>
                         <p className="pr-20">
-                          Lorem ipsum dolor sit amet, consectetur adip cing
-                          elit, sed do eiusmod tempor incidid unt ut labore et
-                          dolorepore magna aliqua.
+                          Hey there! I'm Sebastian, a student living in
+                          Stockholm, soon to become Front End Developer. Our
+                          class at KYH has our internship period (LIA) comming
+                          up soon and I am more then excited to get out in the
+                          industry.
                         </p>
                       </div>
                       <div className="intro-button">
@@ -218,25 +213,18 @@ export default function Carousel() {
                   <div className="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-5">
                     <div className="slider-left">
                       <div className="name">
-                        <h1>
-                          Jack <br /> Harper<span className="pc">.</span>
+                        <h1 className="h1">
+                          Sebastian <br /> Swahn<span className="pc">.</span>
                         </h1>
                       </div>
                       <div className="dash"></div>
                       <div className="social-links mb-40">
-                        <a href="https://www.instagram.com/tortoiz">
-                          Instagram
-                        </a>{" "}
-                        |{" "}
-                        <a href="https://www.linkedin.com/in/shailendra-bhardwaj-4539611a0/">
-                          LinkedIn
-                        </a>{" "}
+                        <a href="https://github.com/sebastianswahn">GitHub</a>
                         <br />
-                        <a href="https://behance.net/tortoizthemes">
-                          Behance
-                        </a>{" "}
-                        |{" "}
-                        <a href="https://dribbble.com/TortoizTeam">Dribbble</a>
+                        <a href="www.linkedin.com/in/sebastian-swahn-31273a298">
+                          LinkedIn
+                        </a>
+                        <br />
                       </div>
                       <div className="slider-cta">
                         <Link
@@ -257,7 +245,7 @@ export default function Carousel() {
                     <div className="profile-pic">
                       <img
                         className="img-fluid"
-                        src={sliderImg01}
+                        src={sliderImg01} // Change this image path
                         alt="jack harper"
                       />
                     </div>
@@ -267,14 +255,16 @@ export default function Carousel() {
                       <div className="section-title">
                         <h3 className="section-name pc">INTRODUCTION</h3>
                         <h2>
-                          UI/UX Designer,
+                          Front End Developer,
                           <br />
-                          Full Stack Web <br /> Developer
+                          UX/UI Designer <br />
                         </h2>
                         <p className="pr-20">
-                          Lorem ipsum dolor sit amet, consectetur adip cing
-                          elit, sed do eiusmod tempor incidid unt ut labore et
-                          dolorepore magna aliqua.
+                          Hey there! I'm Sebastian, a student living in
+                          Stockholm, soon to become Front End Developer. Our
+                          class at KYH has our internship period (LIA) comming
+                          up soon and I am more then excited to get out in the
+                          industry.
                         </p>
                       </div>
                       <div className="intro-button">
